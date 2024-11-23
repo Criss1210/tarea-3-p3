@@ -55,8 +55,26 @@
       </section>
     </div>
 
+     <!-- Botón "Volver arriba" -->
+     <button id="back-to-top" onclick="scrollToTop()">Volver arriba</button>
+
+
+
+
     <footer>
       <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
     </footer>
+
+    <script>
+      // Función para desplazarse al inicio de la página
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      }
+    </script>
+
+
   </body>
 </html>
